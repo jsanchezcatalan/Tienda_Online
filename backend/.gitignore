@@ -1,0 +1,22 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Dependencias de lockfile
+package-lock.json
+yarn.lock
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de entorno (si los usas)
+.env
+
+# Carpeta de build (si haces builds)
+dist/
+build/
