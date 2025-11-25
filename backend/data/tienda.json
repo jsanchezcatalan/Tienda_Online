@@ -1,0 +1,286 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nombre": "Electrónica",
+      "descripcion": "Dispositivos y gadgets electrónicos",
+      "imagen": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=400"
+    },
+    {
+      "id": 2,
+      "nombre": "Ropa",
+      "descripcion": "Moda y vestimenta",
+      "imagen": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=400"
+    },
+    {
+      "id": 3,
+      "nombre": "Hogar",
+      "descripcion": "Artículos para el hogar",
+      "imagen": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?w=400"
+    },
+    {
+      "id": 4,
+      "nombre": "Deportes",
+      "descripcion": "Equipamiento deportivo",
+      "imagen": "https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=400"
+    },
+    {
+      "id": 5,
+      "nombre": "Libros",
+      "descripcion": "Literatura y educación",
+      "imagen": "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?w=400"
+    }
+  ],
+  "productos": [
+    {
+      "id": 1,
+      "nombre": "Smartphone XZ Pro",
+      "descripcion": "Smartphone de última generación con pantalla AMOLED de 6.7 pulgadas, procesador octa-core y cámara de 108MP",
+      "precio": 799.99,
+      "imagen": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400",
+      "destacado": true,
+      "id_categoria": 1,
+      "stock": 50
+    },
+    {
+      "id": 2,
+      "nombre": "Laptop Gaming Pro",
+      "descripcion": "Portátil gaming con RTX 4070, 32GB RAM, pantalla 144Hz perfecta para juegos y trabajo profesional",
+      "precio": 1499.99,
+      "imagen": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400",
+      "destacado": true,
+      "id_categoria": 1,
+      "stock": 25
+    },
+    {
+      "id": 3,
+      "nombre": "Auriculares Bluetooth Premium",
+      "descripcion": "Auriculares inalámbricos con cancelación de ruido activa, 30 horas de batería y sonido Hi-Res",
+      "precio": 249.99,
+      "imagen": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+      "destacado": true,
+      "id_categoria": 1,
+      "stock": 100
+    },
+    {
+      "id": 4,
+      "nombre": "Smartwatch Fitness",
+      "descripcion": "Reloj inteligente con monitor de salud, GPS integrado y resistencia al agua IP68",
+      "precio": 199.99,
+      "imagen": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400",
+      "destacado": false,
+      "id_categoria": 1,
+      "stock": 75
+    },
+    {
+      "id": 5,
+      "nombre": "Tablet Pro 12",
+      "descripcion": "Tablet profesional con stylus incluido, 12.9 pulgadas, ideal para diseño y productividad",
+      "precio": 899.99,
+      "imagen": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400",
+      "destacado": false,
+      "id_categoria": 1,
+      "stock": 40
+    },
+    {
+      "id": 6,
+      "nombre": "Camiseta Casual Premium",
+      "descripcion": "Camiseta de algodón 100% orgánico, diseño moderno y ajuste perfecto",
+      "precio": 29.99,
+      "imagen": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400",
+      "destacado": true,
+      "id_categoria": 2,
+      "stock": 200
+    },
+    {
+      "id": 7,
+      "nombre": "Jeans Denim Clásico",
+      "descripcion": "Pantalones vaqueros de corte clásico, denim de alta calidad y gran durabilidad",
+      "precio": 59.99,
+      "imagen": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=400",
+      "destacado": false,
+      "id_categoria": 2,
+      "stock": 150
+    },
+    {
+      "id": 8,
+      "nombre": "Chaqueta Outdoor",
+      "descripcion": "Chaqueta impermeable y cortavientos, perfecta para aventuras al aire libre",
+      "precio": 89.99,
+      "imagen": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400",
+      "destacado": true,
+      "id_categoria": 2,
+      "stock": 80
+    },
+    {
+      "id": 9,
+      "nombre": "Zapatillas Running Elite",
+      "descripcion": "Zapatillas deportivas con tecnología de amortiguación avanzada para corredores profesionales",
+      "precio": 129.99,
+      "imagen": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+      "destacado": false,
+      "id_categoria": 2,
+      "stock": 120
+    },
+    {
+      "id": 10,
+      "nombre": "Vestido Elegante",
+      "descripcion": "Vestido de noche elegante, ideal para eventos especiales y ocasiones formales",
+      "precio": 149.99,
+      "imagen": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=400",
+      "destacado": false,
+      "id_categoria": 2,
+      "stock": 60
+    },
+    {
+      "id": 11,
+      "nombre": "Sofá Moderno 3 Plazas",
+      "descripcion": "Sofá de diseño contemporáneo con tapizado de microfibra, muy cómodo y elegante",
+      "precio": 699.99,
+      "imagen": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=400",
+      "destacado": true,
+      "id_categoria": 3,
+      "stock": 15
+    },
+    {
+      "id": 12,
+      "nombre": "Lámpara LED Inteligente",
+      "descripcion": "Lámpara de techo con control por app, 16 millones de colores y temporizador",
+      "precio": 79.99,
+      "imagen": "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?w=400",
+      "destacado": false,
+      "id_categoria": 3,
+      "stock": 90
+    },
+    {
+      "id": 13,
+      "nombre": "Juego de Sábanas Premium",
+      "descripcion": "Sábanas de algodón egipcio 600 hilos, suavidad y confort superior",
+      "precio": 89.99,
+      "imagen": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400",
+      "destacado": false,
+      "id_categoria": 3,
+      "stock": 100
+    },
+    {
+      "id": 14,
+      "nombre": "Set Utensilios Cocina",
+      "descripcion": "Juego completo de 12 utensilios de cocina profesional en acero inoxidable",
+      "precio": 119.99,
+      "imagen": "https://images.unsplash.com/photo-1556910633-5099dc3971e8?w=400",
+      "destacado": false,
+      "id_categoria": 3,
+      "stock": 70
+    },
+    {
+      "id": 15,
+      "nombre": "Espejo Decorativo Grande",
+      "descripcion": "Espejo de pared con marco dorado, diseño vintage ideal para salones",
+      "precio": 159.99,
+      "imagen": "https://images.unsplash.com/photo-1618220179428-22790b461013?w=400",
+      "destacado": false,
+      "id_categoria": 3,
+      "stock": 35
+    },
+    {
+      "id": 16,
+      "nombre": "Bicicleta Montaña Pro",
+      "descripcion": "Bicicleta MTB con suspensión completa, 27 velocidades y cuadro de aluminio",
+      "precio": 899.99,
+      "imagen": "https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?w=400",
+      "destacado": true,
+      "id_categoria": 4,
+      "stock": 20
+    },
+    {
+      "id": 17,
+      "nombre": "Mancuernas Ajustables 20kg",
+      "descripcion": "Set de mancuernas con peso ajustable de 2.5kg a 20kg, perfectas para entrenamiento en casa",
+      "precio": 149.99,
+      "imagen": "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?w=400",
+      "destacado": false,
+      "id_categoria": 4,
+      "stock": 45
+    },
+    {
+      "id": 18,
+      "nombre": "Esterilla Yoga Premium",
+      "descripcion": "Esterilla antideslizante de 6mm, material eco-friendly y bolsa de transporte incluida",
+      "precio": 39.99,
+      "imagen": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
+      "destacado": false,
+      "id_categoria": 4,
+      "stock": 150
+    },
+    {
+      "id": 19,
+      "nombre": "Balón Fútbol Profesional",
+      "descripcion": "Balón oficial tamaño 5, cuero sintético de alta calidad y certificación FIFA",
+      "precio": 49.99,
+      "imagen": "https://images.unsplash.com/photo-1614632537197-38a17061c2bd?w=400",
+      "destacado": false,
+      "id_categoria": 4,
+      "stock": 80
+    },
+    {
+      "id": 20,
+      "nombre": "Cuerda Saltar Profesional",
+      "descripcion": "Comba con contador digital, mangos ergonómicos y cable de acero ajustable",
+      "precio": 24.99,
+      "imagen": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400",
+      "destacado": false,
+      "id_categoria": 4,
+      "stock": 100
+    },
+    {
+      "id": 21,
+      "nombre": "El Quijote - Edición Ilustrada",
+      "descripcion": "Edición especial con ilustraciones originales, tapa dura y papel de calidad premium",
+      "precio": 34.99,
+      "imagen": "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=400",
+      "destacado": true,
+      "id_categoria": 5,
+      "stock": 60
+    },
+    {
+      "id": 22,
+      "nombre": "Colección Harry Potter Completa",
+      "descripcion": "Box set con los 7 libros de la saga, edición de coleccionista con estuche",
+      "precio": 149.99,
+      "imagen": "https://images.unsplash.com/photo-1621351183012-e2f9972dd9bf?w=400",
+      "destacado": true,
+      "id_categoria": 5,
+      "stock": 30
+    },
+    {
+      "id": 23,
+      "nombre": "Curso JavaScript Avanzado",
+      "descripcion": "Libro técnico completo sobre JavaScript moderno, ES6+ y frameworks actuales",
+      "precio": 44.99,
+      "imagen": "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+      "destacado": false,
+      "id_categoria": 5,
+      "stock": 75
+    },
+    {
+      "id": 24,
+      "nombre": "Novela Suspense Bestseller",
+      "descripcion": "El thriller del año, más de 2 millones de copias vendidas en todo el mundo",
+      "precio": 19.99,
+      "imagen": "https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=400",
+      "destacado": false,
+      "id_categoria": 5,
+      "stock": 120
+    },
+    {
+      "id": 25,
+      "nombre": "Enciclopedia Visual",
+      "descripcion": "Enciclopedia ilustrada para toda la familia, más de 1000 páginas a todo color",
+      "precio": 79.99,
+      "imagen": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=400",
+      "destacado": false,
+      "id_categoria": 5,
+      "stock": 40
+    }
+  ]
+}
