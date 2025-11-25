@@ -1,0 +1,193 @@
+body {
+  background-color: #f8f9fa;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.test-user-btn {
+  background-color: #6c757d;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.test-user-btn:hover {
+  opacity: 0.9;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.bg-primary {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.badge {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+  color: #212529;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
+}
+
+.badge {
+  background-color: #6c757d;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  opacity: 0.9;
+}
+
+.btn-outline-secondary {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+.btn-outline-secondary:hover {
+  opacity: 0.9;
+}
+
+.badge {
+  background-color: #dc3545;
+  color: #ffffff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+}
+
+#productoCard {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+}
+#productoCard img {
+  max-height: 500px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 8px;
+}
+#productoCard .btn-primary {
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+#productoCard .btn-primary:hover {
+  opacity: 0.9;
+}
+#productoCard .btn-outline-secondary {
+  background-color: #f8f9fa;
+  color: #212529;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+}
+#productoCard .btn-outline-secondary:hover {
+  opacity: 0.9;
+}/*# sourceMappingURL=main.css.map */

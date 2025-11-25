@@ -1,0 +1,36 @@
+@use 'variables' as vars;
+
+// Mixin para cards
+@mixin card-style {
+  background-color: vars.$background-light;
+  border-radius: vars.$border-radius;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 1rem;
+}
+
+// Mixin para botones
+@mixin button-style($bg-color, $text-color: null) {
+  $text-color: if($text-color == null, vars.$text-light, $text-color);
+
+  background-color: $bg-color;
+  color: $text-color;
+  border-radius: vars.$border-radius;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
+
+// Mixin para badges
+@mixin badge-style($bg-color, $text-color: null) {
+  $text-color: if($text-color == null, vars.$text-light, $text-color);
+
+  background-color: $bg-color;
+  color: $text-color;
+  padding: 0.25rem 0.5rem;
+  border-radius: vars.$border-radius;
+  font-size: 0.85rem;
+}

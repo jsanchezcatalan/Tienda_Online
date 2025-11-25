@@ -1,0 +1,25 @@
+@use 'variables' as vars;
+@use 'mixins' as mixins;
+
+body {
+  font-family: vars.$font-primary;
+  background-color: vars.$background-light;
+}
+
+#productoCard {
+  @include mixins.card-style;
+
+  img {
+    max-height: 500px;
+    object-fit: contain;
+    border-radius: vars.$border-radius;
+  }
+
+  .btn-primary {
+    @include mixins.button-style(vars.$color-primary);
+  }
+
+  .btn-outline-secondary {
+    @include mixins.button-style(vars.$background-light, vars.$text-dark);
+  }
+}

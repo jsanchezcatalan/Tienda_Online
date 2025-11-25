@@ -1,0 +1,20 @@
+@use 'variables' as vars;
+@use 'mixins' as mixins;
+
+body {
+  background-color: vars.$background-light;
+  font-family: vars.$font-primary;
+}
+
+.card {
+  @include mixins.card-style;
+}
+
+.btn-primary {
+  @include mixins.button-style(vars.$color-primary);
+}
+
+.test-user-btn {
+  @include mixins.button-style(vars.$color-secondary);
+  font-size: 0.9rem;
+}

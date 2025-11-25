@@ -1,0 +1,23 @@
+@use 'variables' as vars;
+@use 'mixins' as mixins;
+
+body {
+  font-family: vars.$font-primary;
+  background-color: vars.$background-light;
+}
+
+h1, h2, h3 {
+  color: vars.$text-dark;
+}
+
+.card {
+  @include mixins.card-style;
+}
+
+.btn {
+  @include mixins.button-style(vars.$color-primary);
+}
+
+.badge {
+  @include mixins.badge-style(vars.$color-secondary);
+}
