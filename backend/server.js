@@ -15,7 +15,10 @@ const PORT = 3000;
 // ============================================
 // MIDDLEWARES
 // ============================================
-app.use(cors()); // Permitir peticiones desde el frontend
+app.use(cors({
+  origin: '*',
+  credentials: true
+}));
 app.use(express.json()); // Parsear JSON en el body
 
 // ============================================
@@ -499,3 +502,11 @@ setInterval(() => {
 }, 60 * 60 * 1000); // Cada hora
 
 //
+
+// ============================================
+// INICIAR SERVIDOR
+// ============================================
+app.listen(PORT, () => {
+  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`📡 API disponible en http://localhost:${PORT}/api`);
+});
