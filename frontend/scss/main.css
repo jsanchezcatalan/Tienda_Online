@@ -1,19 +1,19 @@
 body {
-  background-color: #f8f9fa;
+  background-color: #fdf3e7;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card {
-  background-color: #f8f9fa;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #a67c52;
   color: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -23,9 +23,9 @@ body {
 }
 
 .test-user-btn {
-  background-color: #6c757d;
+  background-color: #c1a17f;
   color: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -37,25 +37,25 @@ body {
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #fdf3e7;
 }
 
 .bg-primary {
-  background-color: #007bff;
+  background-color: #a67c52;
   color: #ffffff;
 }
 
 .card {
-  background-color: #f8f9fa;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 
 .btn {
-  background-color: #007bff;
+  background-color: #a67c52;
   color: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -68,30 +68,30 @@ body {
   background-color: #dc3545;
   color: #ffffff;
   padding: 0.25rem 0.5rem;
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 0.85rem;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #fdf3e7;
 }
 
 h1, h2, h3 {
-  color: #212529;
+  color: #3e2f20;
 }
 
 .card {
-  background-color: #f8f9fa;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 
 .btn {
-  background-color: #007bff;
+  background-color: #a67c52;
   color: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -101,29 +101,29 @@ h1, h2, h3 {
 }
 
 .badge {
-  background-color: #6c757d;
+  background-color: #c1a17f;
   color: #ffffff;
   padding: 0.25rem 0.5rem;
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 0.85rem;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #fdf3e7;
 }
 
 .card {
-  background-color: #f8f9fa;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
 
 .btn-primary {
-  background-color: #007bff;
+  background-color: #a67c52;
   color: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -133,9 +133,9 @@ body {
 }
 
 .btn-outline-secondary {
-  background-color: #f8f9fa;
-  color: #212529;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  color: #3e2f20;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -148,18 +148,18 @@ body {
   background-color: #dc3545;
   color: #ffffff;
   padding: 0.25rem 0.5rem;
-  border-radius: 8px;
+  border-radius: 12px;
   font-size: 0.85rem;
 }
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #fdf3e7;
 }
 
 #productoCard {
-  background-color: #f8f9fa;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 1rem;
 }
@@ -167,12 +167,12 @@ body {
   max-height: 500px;
   -o-object-fit: contain;
      object-fit: contain;
-  border-radius: 8px;
+  border-radius: 12px;
 }
 #productoCard .btn-primary {
-  background-color: #007bff;
+  background-color: #a67c52;
   color: #ffffff;
-  border-radius: 8px;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
@@ -181,9 +181,9 @@ body {
   opacity: 0.9;
 }
 #productoCard .btn-outline-secondary {
-  background-color: #f8f9fa;
-  color: #212529;
-  border-radius: 8px;
+  background-color: #fdf3e7;
+  color: #3e2f20;
+  border-radius: 12px;
   padding: 0.5rem 1rem;
   border: none;
   cursor: pointer;
