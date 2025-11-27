@@ -22,6 +22,64 @@ app.use(cors({
 app.use(express.json()); // Parsear JSON en el body
 
 // ============================================
+// SERVIR ARCHIVOS ESTÁTICOS DEL FRONTEND
+// ============================================
+// Servir CSS, JS, imágenes directamente
+const frontendPath = path.join(__dirname, '..', 'frontend');
+app.use('/css', express.static(path.join(frontendPath, 'css')));
+app.use('/js', express.static(path.join(frontendPath, 'js')));
+app.use('/images', express.static(path.join(frontendPath, 'images')));
+app.use('/scss', express.static(path.join(frontendPath, 'scss')));
+
+// ============================================
+// RUTAS HTML - Servir páginas específicas
+// ============================================
+app.get('/', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'login.html'));
+});
+
+app.get('/login', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'login.html'));
+});
+
+app.get('/dashboard', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'dashboard.html'));
+});
+
+app.get('/carrito', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'carrito.html'));
+});
+
+app.get('/categorias', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'categorias.html'));
+});
+
+app.get('/producto', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'producto.html'));
+});
+
+// Rutas alternativas con .html (para compatibilidad)
+app.get('/login.html', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'login.html'));
+});
+
+app.get('/dashboard.html', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'dashboard.html'));
+});
+
+app.get('/carrito.html', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'carrito.html'));
+});
+
+app.get('/categorias.html', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'categorias.html'));
+});
+
+app.get('/producto.html', (req, res) => {
+  res.sendFile(path.join(frontendPath, 'html', 'producto.html'));
+});
+
+// ============================================
 // CONFIGURACIÓN DE SEGURIDAD
 // Token secreto del servidor (clave privada)
 // ============================================
@@ -501,12 +559,25 @@ setInterval(() => {
   }
 }, 60 * 60 * 1000); // Cada hora
 
-//
+// ============================================
+// MANEJO DE RUTAS NO ENCONTRADAS (404)
+// Debe ir AL FINAL, después de todas las rutas
+// ============================================
+app.use((req, res) => {
+  // Si es una petición a la API, devolver JSON
+  if (req.path.startsWith('/api')) {
+    return res.status(404).json({
+      success: false,
+      error: 'Ruta de API no encontrada'
+    });
+  }
+  // Si no, intentar servir el archivo o devolver 404
+  res.status(404).send('Página no encontrada');
+});
 
 // ============================================
 // INICIAR SERVIDOR
 // ============================================
 app.listen(PORT, () => {
-  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
-  console.log(`📡 API disponible en http://localhost:${PORT}/api`);
+  console.log(`🚀 Servidor API REST escuchando en http://localhost:${PORT}`);
 });

@@ -248,7 +248,7 @@
       "descripcion": "Box set con los 7 libros de la saga, edición de coleccionista con estuche",
       "precio": 149.99,
       "imagen": "../images/producto22.jpg",
-      "destacado": true,
+      "destacado": false,
       "id_categoria": 5,
       "stock": 30
     },
